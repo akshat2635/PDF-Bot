@@ -2,13 +2,17 @@
 
 This is an advanced web application that allows you to have an intelligent conversation with your PDF documents. Upload a PDF, and the application will process it, enabling you to ask questions, get summaries, and receive insightful answers based on the document's content. This project leverages the power of large language models (LLMs) and vector databases to create a seamless and interactive experience.
 
+## 🚀 Live Demo
+
+You can try out the live application here: [https://pdf-bot-akshat.streamlit.app/](https://pdf-bot-akshat.streamlit.app/)
+
 ## 🌟 Features
 
 - **Interactive Chat Interface:** A clean and user-friendly interface built with Streamlit for uploading PDFs and engaging in a conversation.
 - **Conversational Memory:** The chatbot remembers the context of the conversation, allowing for follow-up questions and a more natural dialogue.
 - **High-Quality Answers:** Leverages state-of-the-art language models from Google's Generative AI suite to provide accurate and relevant answers.
 - **Fast and Efficient:** Utilizes parallel processing (multi-threading) to quickly prepare your PDF for questioning, ensuring a smooth user experience.
-- **Source-Aware Responses:** The model can pinpoint the sources of its answers within the document, providing better context and verifiability.
+- **Advanced Text Refinement:** Each part of the document is refined by an AI model to improve clarity and context before being used for answering questions.
 
 ## ⚙️ How It Works
 
@@ -35,7 +39,7 @@ Follow these instructions to set up and run the project on your local machine.
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/PDF-Bot.git
+    git clone https://github.com/akshat2635/PDF-Bot.git
     cd PDF-Bot
     ```
 
@@ -74,7 +78,7 @@ This will start the Streamlit server, and you can access the application in your
 - **Backend:** Python
 - **Web Framework:** Streamlit
 - **LLM Orchestration:** LangChain
-- **Language Models:** Google Generative AI (Gemini Pro)
+- **Language Models:** Google Generative AI (Gemini 2.0 Flash)
 - **Vector Store:** FAISS (Facebook AI Similarity Search)
 - **PDF Processing:** PyMuPDF
 
