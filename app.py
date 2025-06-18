@@ -89,7 +89,7 @@ def main():
 
         for user_q, bot_a in st.session_state.chat_history:
             st.chat_message("user").write(user_q)
-            st.chat_message("assistant").write(bot_a)
+            st.chat_message("assistant").markdown(bot_a, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
